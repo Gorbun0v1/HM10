@@ -4,7 +4,7 @@ public class Main {
         Author author2 = new Author("Govard","Lovecraft", "Govard Lovecraft");
         Book theDeadZone = new Book("The Dead Zone", 1983,author1);
         System.out.println(theDeadZone.getNameBook() + " " + theDeadZone.getBookYear() + " " + author1.getFullNameAuthor());
-        theDeadZone.setBookYear(2014);
+        theDeadZone.setBookYear(2016);
         System.out.println("Эту книгу я прочитал в " + theDeadZone.getBookYear());
         Book theWhispererInDarkness = new Book("The Whisperer in Darkness", 1931, author2);
         System.out.println(theWhispererInDarkness.getNameBook() +  " " + theWhispererInDarkness.getBookYear()+ " " + author2);
